@@ -411,7 +411,7 @@ export default function HomePage() {
 
       {/* Legend — bottom left on map */}
       {sheet === "collapsed" && (
-        <div className="absolute bottom-20 left-3 sm:left-4 bg-background/90 backdrop-blur-md rounded-xl border border-border/50 px-2.5 py-2 flex gap-2.5 text-[10px] z-[999] shadow-sm">
+        <div className="absolute bottom-24 left-1/2 -translate-x-1/2 sm:translate-x-0 sm:left-4 sm:bottom-20 bg-background/90 backdrop-blur-md rounded-xl border border-border/50 px-2.5 py-2 flex gap-2.5 text-[10px] z-[998] shadow-sm">
           <span className="flex items-center gap-1">
             <span className="w-2.5 h-2.5 rounded-full bg-green-500 inline-block" /> Great
           </span>
