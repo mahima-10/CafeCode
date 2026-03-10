@@ -144,7 +144,7 @@ export default function HomePage() {
   }
 
   // Sheet height percentages
-  const sheetHeight = sheet === "full" ? "70vh" : sheet === "peek" ? "40vh" : "0px";
+  const sheetHeight = sheet === "full" ? "70vh" : sheet === "peek" ? "28vh" : "0px";
 
   // Touch handlers for sheet drag
   function handleTouchStart(e: React.TouchEvent) {
